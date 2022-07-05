@@ -8,3 +8,12 @@ p {
   max-width: 30rem;
   margin: 5rem auto 0 auto;
 }
+.tooltip {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
