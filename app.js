@@ -9,6 +9,8 @@ tooltips.forEach((tooltip) => {
     const tooltipText = e.currentTarget.getAttribute("data-tooltip-text");
     tooltipBox.textContent = tooltipText;
     document.querySelectorAll(".tooltip").forEach((e) => e.remove());
+    const cords = e.currentTarget.getBoundingClientRect();
+    console.log(cords.left);
     document.body.append(tooltipBox);
   });
 });
